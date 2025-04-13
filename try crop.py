@@ -6,7 +6,7 @@ from tqdm import tqdm
 from paddleocr import PaddleOCR
 import logging
 logging.getLogger("ppocr").setLevel(logging.WARNING)
-
+##test import
 def video_crop_with_ocr(
     model_path: str = r"C:\Users\qixin\runs\segment\train35\weights\best.pt",#"C:\Users\qixin\runs\segment\train33\weights\best.pt"
     video_path: str = r"Z:\对地\数据集（标靶）\2024数据集及处理代码\video_blue(0908)\新标靶9.8.MOV",  # 改为视频路径
