@@ -8,6 +8,7 @@ import logging
 from collections import deque
 import numpy as np
 import re
+
 # 设置日志级别
 logging.getLogger("ppocr").setLevel(logging.WARNING)
 numbers=[]
